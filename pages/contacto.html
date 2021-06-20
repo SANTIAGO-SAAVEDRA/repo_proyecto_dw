@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+  </head>
+  <body>
+    <!--incio de header-->
+    <header class="header">
+      <!--TITULO DE LA PÁGINA-->
+      <div class="headerLogo">
+        <img src="https://cdn.shopify.com/s/files/1/2349/3299/files/HST_black_logo_2000x.png?v=1593623707" alt="logoImagen">
+      </div>
+
+    <!--barra de navegacion-->
+    <nav class="headerMenu">
+      <ul>
+        <li> <a href="../misitio.html"> INICIO </a> </li>
+        <li> <a href="carrera.html"> CARRERA </a> </li>
+        <li> <a href="discografia.html"> DISCOGRAFIA </a> </li>
+        <li> <a href="misitio-shop.html"> SHOP </a> </li>
+        <li> <a href="contacto.html"> CONTACTO </a> </li>
+      </ul>
+    </nav>
+  </header>
+    <!--inicio de main-->
+    <main>
+            <h1>CONTACTO</h1>
+      <h3>Dejá tu consulta y nos pondremos en contacto con vos a través del medio que hayas dejado</h3>
+      <br/>
+      <form action="" method="get">
+        <label for="nombre_apellido">NOMBRE Y APELLIDO</label> <br>
+        <input type="text" name="nombreyapellido" id="nombre_apellido">
+        
+        <br><br>
+        
+        <label for="email">e-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="tucorreo@mail.com">
+        
+        <br><br>
+        
+        <label for="telefono">ingresa tu numero de telefono</label>
+        <input type="text" name="telefono" id="telefono" placeholder="1122334455">
+        
+        <fieldset>
+          <legend>DEJANOS TU CONSULTA ACÁ</legend>
+          <textarea name="consulta" id="consulta" cols="160" rows="10"></textarea>
+        </fieldset>
+
+        <label for="">Desea recibir futuras actualizaciones sobre nuestro sitio web?</label>
+        SI<input type="radio" name="newsletter" id="">
+        NO<input type="radio" name="newsletter" id="">
+
+        <br><br>
+
+        <input type="submit" value="ENVIAR">
+        <input type="reset" value="BORRAR">
+
+      </form>
+    </main>
+
+    <footer>
+      <p><a href="../misitio.html">INICIO</a> | <a href="https://twitter.com/">TWITTER</a> | <a href="https://www.instagram.com/">INSTAGRAM</a> | <a href="https://www.facebook.com/">FACEBOOK</a> | <a href=""> SITIO OFICIAL</a></p>
+      <h5 id="desarrollo">Desarrollado por Santiago Saavedra, todo el contenido le corresponde a sus derechos de autor.</h5>
+    </footer>
+  </body>
+</html>

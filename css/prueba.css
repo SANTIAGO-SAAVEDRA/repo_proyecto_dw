@@ -1,0 +1,141 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
+*{
+    margin: 50;
+}
+body{
+    font-family: 'Nanum Gothic Coding', monospace;
+    margin: 50;
+}
+a{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerLogo{
+    width: 200px;
+    margin-left: 5px;
+}
+.headerLogo img{
+    width: 100%;
+}
+.headerMenu{
+    width: 30%;
+    margin-right: 25px;
+}
+.headerMenu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.headerMenu ul li{
+    display: inline-block;
+}
+
+.tituloPagina{
+    font-family: 'Nanum Gothic Coding', monospace;
+    color:crimson;
+}
+body{
+    /*background-color: rgb(228, 216, 216);*/
+    background-color: #F3B1B3;
+}
+
+    .header{
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .headerLogo{
+        width: 200px;
+        margin-left: 5px;
+    }
+    .headerLogo img{
+        width: 100%;
+    }
+    .headerMenu{
+        width: 30%;
+        margin-right: 25px;
+    }
+    .headerMenu ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+    .headerMenu ul li{
+        display: inline-block;
+    }
+    
+
+.card-title{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+
+#divTabla{
+    text-align: center;
+}
+
+#divTabla, table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#producto{
+    color: red;
+    font-size: 16;
+}
+#cantidad{
+    color: red;
+    font-size: 16;
+}
+#precio{
+    color: red;
+}
+table, th, td{
+    font-family: 'Nanum Gothic Coding', monospace;
+    border: 1px solid rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    object-position: center;
+}
+#precioBajoTabla{
+    object-position: center;
+    text-align: center;
+    font-family: 'Nanum Gothic Coding', monospace;
+    width: 70%;
+    background-color: white;
+}
+
+
+/*FOOTER*/
+footer p{
+    text-align: center;
+}
+footer p a{
+    color:rgb(225, 0, 0);
+    text-decoration: none;
+}
+#desarrollo{
+    color: rgb(59, 59, 59);
+    text-align: center;
+}
